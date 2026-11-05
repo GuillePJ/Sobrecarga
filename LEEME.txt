@@ -1,0 +1,24 @@
+SOBRECARGA · app de gimnasio con doble progresión
+
+PUBLICARLA (GitHub Pages, gratis, una sola vez)
+1. Crea una cuenta en github.com.
+2. Botón "New" (nuevo repositorio) > nombre: sobrecarga > Public > Create repository.
+3. Pulsa "uploading an existing file" y arrastra estos archivos:
+   index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png, icon-maskable-512.png
+   > "Commit changes".
+4. Settings > Pages > Source: "Deploy from a branch" > Branch: main, carpeta / (root) > Save.
+5. En 1-2 minutos tendrás la web en: https://TU-USUARIO.github.io/sobrecarga/
+
+INSTALARLA EN EL MÓVIL
+- Abre esa dirección en Chrome > menú ⋮ > "Instalar aplicación" (o "Añadir a pantalla de inicio").
+- Abre la app > Datos > Importar copia > elige sobrecarga-copia-2026-11-05.json > Reemplazar.
+
+TUS DATOS
+- Se guardan solo en el móvil, no en GitHub. El repositorio solo tiene la app y tu rutina.
+- Haz copias desde Datos > Descargar copia (o Compartir copia para mandarla a Drive).
+  La app te avisa si llevas más de 14 días sin copia.
+
+ACTUALIZAR LA APP MÁS ADELANTE
+- Sube el index.html nuevo a GitHub (reemplaza el anterior).
+- En sw.js cambia CACHE = "sobrecarga-v1" por "sobrecarga-v2" (v3, v4…) y súbelo también.
+- La versión nueva aparece la segunda vez que abras la app. Tus datos no se tocan.
